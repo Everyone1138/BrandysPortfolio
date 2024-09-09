@@ -3800,6 +3800,15 @@ img.u-pull-left {
     fill : var(--color-gray-8);
 }
 
+
+.img {
+    width: 1080px; /* Set your desired width */
+    height: 900px; /* Set your desired height */
+    object-fit: cover; /* Ensures the image maintains aspect ratio and fits the size */
+    display: block; /* Ensures the image aligns properly */
+    margin: 0 auto; /* Centers the image */
+  }
+
 /* ------------------------------------------------------------------- 
  * responsive:
  * works
