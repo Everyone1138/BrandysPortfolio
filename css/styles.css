@@ -3179,6 +3179,17 @@ img.u-pull-left {
     background-size     : cover;
     position            : relative;
 }
+.s-intro__g {
+    aspect-ratio        : 1/1;
+    width               : 100%;
+    height              : 100%;
+    background-color    : var(--color-gray-4);
+    background-image    : url(../images/newphoto.png);
+    background-repeat   : no-repeat;
+    background-position : center;
+    background-size     : cover;
+    position            : relative;
+}
 
 .s-intro__bg::after {
     display        : block;
